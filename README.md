@@ -22,9 +22,9 @@ Requesting Data
 ---------------
 RECIEVING DATA
 ---------------
--motd Endpoint: 
+- motd Endpoint: 
     - Returns a random message from a list
--Version Endpoint:
+- Version Endpoint:
     - Returns the current version of the microservice "v1.0.0"
 
 ---------------------
