@@ -1,6 +1,6 @@
 MICROSERVICE PROJECT FOR TODO DESKTOP APP
 
-This microservice is implememnted using Python and Flask to provide a Message of the Day (motd) and a version number for a desktop TODO desktop application.
+This microservice is implemented using Python and Flask to provide a Message of the Day (motd) and a version number for a desktop TODO application.
 
 ---------------
 INSTRUCTIONS:
