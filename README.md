@@ -5,32 +5,26 @@ This microservice is implememnted using Python and Flask to provide a Message of
 ---------------
 INSTRUCTIONS:
 ---------------
-RequestING Data
+Requesting Data
 ---------------
 - Message of the Day (motd) Endpoint:
     - Method: Get
     - URL: /motd
     - Example call:
-        import requests
-
-        response = requests.get('http://localhost:5000/motd')
-        print('MOTD:', response.text)
+![motd Example call](images/motd_call.png)
 
 - Version Endpoint:
     - METHOD: GET
     - URL: /version
     - Example call:
-        import requests
-
-        response = requests.get('http://localhost:5000/version')
-        print('Version:', response.text)
+![version Example call](images/version_call.png)
 
 ---------------
 RECIEVING DATA
 ---------------
-motd Endpoint: 
+-motd Endpoint: 
     - Returns a random message from a list
-Version Endpoint:
+-Version Endpoint:
     - Returns the current version of the microservice "v1.0.0"
 
 ---------------------
